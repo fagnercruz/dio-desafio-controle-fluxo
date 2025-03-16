@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Contador {
-    public static void main(String[] args) throws ParametrosInvalidosException {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite o primeiro parâmetro: ");
         int n1 = sc.nextInt();
